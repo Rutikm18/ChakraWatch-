@@ -228,3 +228,124 @@
 2025-06-17 23:50:40,293 - app - INFO - Total articles scraped: 43
 2025-06-17 23:50:40,322 - app - INFO - Saved 0 new articles to database
 2025-06-17 23:50:40,322 - app - INFO - Background scraping completed: 43 found, 0 saved
+2025-06-18 00:32:17,960 - app - INFO - [OK] Static files mounted successfully
+2025-06-18 00:32:18,134 - app - INFO - [OK] Database manager initialized
+2025-06-18 00:32:18,134 - app - INFO - [OK] Scraper manager initialized
+2025-06-18 00:32:18,143 - app - INFO - Starting ChakraWatch server...
+2025-06-18 00:32:18,145 - app - INFO - Database tables created/verified
+2025-06-18 00:32:18,155 - app - INFO - [OK] Database connection verified. Current articles: 43
+2025-06-18 00:32:18,155 - app - INFO - [OK] ChakraWatch server startup completed
+2025-06-18 00:33:27,253 - app - INFO - [OK] Static files mounted successfully
+2025-06-18 00:33:27,295 - app - INFO - [OK] Database manager initialized
+2025-06-18 00:33:27,296 - app - INFO - [OK] Scraper manager initialized
+2025-06-18 00:33:27,306 - app - INFO - Starting ChakraWatch server...
+2025-06-18 00:33:27,308 - app - INFO - Database tables created/verified
+2025-06-18 00:33:27,318 - app - INFO - [OK] Database connection verified. Current articles: 43
+2025-06-18 00:33:27,319 - app - INFO - [OK] ChakraWatch server startup completed
+2025-06-17 19:29:23,135 - app - INFO - [OK] Static files mounted successfully
+2025-06-17 19:29:23,151 - app - INFO - [OK] Database manager initialized
+2025-06-17 19:29:23,151 - app - INFO - [OK] Scraper manager initialized
+2025-06-17 19:29:23,159 - app - INFO - Starting ChakraWatch server...
+2025-06-17 19:29:23,167 - app - INFO - Database tables created/verified
+2025-06-17 19:29:23,175 - app - INFO - [OK] Database connection verified. Current articles: 43
+2025-06-17 19:29:23,176 - app - INFO - [OK] ChakraWatch server startup completed
+2025-06-17 19:29:24,092 - app - WARNING - 404 Error: GET http://localhost:8000/socketcluster/
+2025-06-17 19:29:38,546 - app - WARNING - 404 Error: GET http://localhost:8000/socketcluster/
+2025-06-17 19:29:57,431 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:29:57,474 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:29:58,193 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:29:58,226 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:29:58,373 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:29:58,398 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:29:58,542 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:29:58,583 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:29:59,286 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:29:59,309 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:29:59,486 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:29:59,522 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:30:14,108 - app - INFO - Starting background scraping...
+2025-06-17 19:30:14,109 - app - INFO - Starting scrape for security_affairs...
+2025-06-17 19:30:14,109 - app - INFO - Fetching RSS feed from https://securityaffairs.com/feed
+2025-06-17 19:30:35,576 - app - INFO - RSS response status: 200
+2025-06-17 19:30:35,643 - app - INFO - Found 10 entries in RSS feed
+2025-06-17 19:30:35,662 - app - INFO - Successfully parsed 10 articles from security_affairs
+2025-06-17 19:30:35,663 - app - INFO - Completed scrape for security_affairs: 10 articles
+2025-06-17 19:30:37,664 - app - INFO - Starting scrape for bleeping_computer...
+2025-06-17 19:30:37,664 - app - INFO - Fetching RSS feed from https://www.bleepingcomputer.com/feed/
+2025-06-17 19:30:42,091 - app - INFO - RSS response status: 200
+2025-06-17 19:30:42,099 - app - INFO - Found 13 entries in RSS feed
+2025-06-17 19:30:42,105 - app - INFO - Successfully parsed 13 articles from bleeping_computer
+2025-06-17 19:30:42,105 - app - INFO - Completed scrape for bleeping_computer: 13 articles
+2025-06-17 19:30:44,107 - app - INFO - Starting scrape for hacker_news_rss...
+2025-06-17 19:30:44,108 - app - INFO - Fetching RSS feed from https://feeds.feedburner.com/TheHackersNews
+2025-06-17 19:30:47,345 - app - INFO - RSS response status: 200
+2025-06-17 19:30:47,377 - app - INFO - Found 50 entries in RSS feed
+2025-06-17 19:30:47,395 - app - INFO - Successfully parsed 20 articles from hacker_news_rss
+2025-06-17 19:30:47,396 - app - INFO - Completed scrape for hacker_news_rss: 20 articles
+2025-06-17 19:30:49,397 - app - INFO - Starting scrape for cyware...
+2025-06-17 19:30:49,397 - app - INFO - Fetching RSS feed from https://cyware.com/allnews.rss
+2025-06-17 19:30:52,694 - app - ERROR - Request error for RSS feed cyware: 404 Client Error: Not Found for url: https://www.cyware.com/allnews.rss
+2025-06-17 19:30:52,695 - app - INFO - Completed scrape for cyware: 0 articles
+2025-06-17 19:30:54,695 - app - INFO - Total articles scraped: 43
+2025-06-17 19:30:54,808 - app - INFO - Saved 2 new articles to database
+2025-06-17 19:30:54,808 - app - INFO - Background scraping completed: 43 found, 2 saved
+2025-06-17 19:30:54,819 - app - WARNING - 404 Error: GET http://localhost:8000/socketcluster/
+2025-06-17 19:30:54,871 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:30:54,912 - app - WARNING - 404 Error: GET http://localhost:8000/.well-known/appspecific/com.chrome.devtools.json
+2025-06-17 19:30:55,133 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:30:55,224 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 19:31:24,043 - app - WARNING - 404 Error: GET http://localhost:8000/socketcluster/
+2025-06-17 19:31:34,078 - app - WARNING - 404 Error: GET http://localhost:8000/socketcluster/
+2025-06-17 19:32:15,721 - app - INFO - Starting background scraping...
+2025-06-17 19:32:15,722 - app - INFO - Starting scrape for security_affairs...
+2025-06-17 19:32:15,722 - app - INFO - Fetching RSS feed from https://securityaffairs.com/feed
+2025-06-17 19:32:17,584 - app - INFO - RSS response status: 200
+2025-06-17 19:32:17,623 - app - INFO - Found 10 entries in RSS feed
+2025-06-17 19:32:17,632 - app - INFO - Successfully parsed 10 articles from security_affairs
+2025-06-17 19:32:17,632 - app - INFO - Completed scrape for security_affairs: 10 articles
+2025-06-17 19:32:19,633 - app - INFO - Starting scrape for bleeping_computer...
+2025-06-17 19:32:19,634 - app - INFO - Fetching RSS feed from https://www.bleepingcomputer.com/feed/
+2025-06-17 19:32:21,854 - app - INFO - RSS response status: 200
+2025-06-17 19:32:21,861 - app - INFO - Found 13 entries in RSS feed
+2025-06-17 19:32:21,866 - app - INFO - Successfully parsed 13 articles from bleeping_computer
+2025-06-17 19:32:21,867 - app - INFO - Completed scrape for bleeping_computer: 13 articles
+2025-06-17 19:32:23,868 - app - INFO - Starting scrape for hacker_news_rss...
+2025-06-17 19:32:23,869 - app - INFO - Fetching RSS feed from https://feeds.feedburner.com/TheHackersNews
+2025-06-17 19:32:26,278 - app - INFO - RSS response status: 200
+2025-06-17 19:32:26,298 - app - INFO - Found 50 entries in RSS feed
+2025-06-17 19:32:26,311 - app - INFO - Successfully parsed 20 articles from hacker_news_rss
+2025-06-17 19:32:26,312 - app - INFO - Completed scrape for hacker_news_rss: 20 articles
+2025-06-17 19:32:28,312 - app - INFO - Starting scrape for cyware...
+2025-06-17 19:32:28,313 - app - INFO - Fetching RSS feed from https://cyware.com/allnews.rss
+2025-06-17 19:32:31,383 - app - ERROR - Request error for RSS feed cyware: 404 Client Error: Not Found for url: https://www.cyware.com/allnews.rss
+2025-06-17 19:32:31,384 - app - INFO - Completed scrape for cyware: 0 articles
+2025-06-17 19:32:33,384 - app - INFO - Total articles scraped: 43
+2025-06-17 19:32:33,553 - app - INFO - Saved 0 new articles to database
+2025-06-17 19:32:33,554 - app - INFO - Background scraping completed: 43 found, 0 saved
+2025-06-17 19:32:33,556 - app - INFO - Starting background scraping...
+2025-06-17 19:32:33,556 - app - INFO - Starting scrape for security_affairs...
+2025-06-17 19:32:33,557 - app - INFO - Fetching RSS feed from https://securityaffairs.com/feed
+2025-06-17 19:32:35,164 - app - INFO - RSS response status: 200
+2025-06-17 19:32:35,208 - app - INFO - Found 10 entries in RSS feed
+2025-06-17 19:32:35,218 - app - INFO - Successfully parsed 10 articles from security_affairs
+2025-06-17 19:32:35,218 - app - INFO - Completed scrape for security_affairs: 10 articles
+2025-06-17 19:32:37,234 - app - INFO - Starting scrape for bleeping_computer...
+2025-06-17 19:32:37,235 - app - INFO - Fetching RSS feed from https://www.bleepingcomputer.com/feed/
+2025-06-17 19:32:39,920 - app - INFO - RSS response status: 200
+2025-06-17 19:32:39,925 - app - INFO - Found 13 entries in RSS feed
+2025-06-17 19:32:39,930 - app - INFO - Successfully parsed 13 articles from bleeping_computer
+2025-06-17 19:32:39,930 - app - INFO - Completed scrape for bleeping_computer: 13 articles
+2025-06-17 19:32:41,931 - app - INFO - Starting scrape for hacker_news_rss...
+2025-06-17 19:32:41,931 - app - INFO - Fetching RSS feed from https://feeds.feedburner.com/TheHackersNews
+2025-06-17 19:32:44,487 - app - INFO - RSS response status: 200
+2025-06-17 19:32:44,526 - app - INFO - Found 50 entries in RSS feed
+2025-06-17 19:32:44,552 - app - INFO - Successfully parsed 20 articles from hacker_news_rss
+2025-06-17 19:32:44,553 - app - INFO - Completed scrape for hacker_news_rss: 20 articles
+2025-06-17 19:32:46,554 - app - INFO - Starting scrape for cyware...
+2025-06-17 19:32:46,555 - app - INFO - Fetching RSS feed from https://cyware.com/allnews.rss
+2025-06-17 19:32:49,971 - app - ERROR - Request error for RSS feed cyware: 404 Client Error: Not Found for url: https://www.cyware.com/allnews.rss
+2025-06-17 19:32:49,972 - app - INFO - Completed scrape for cyware: 0 articles
+2025-06-17 19:32:51,973 - app - INFO - Total articles scraped: 43
+2025-06-17 19:32:52,049 - app - INFO - Saved 0 new articles to database
+2025-06-17 19:32:52,049 - app - INFO - Background scraping completed: 43 found, 0 saved
+2025-06-17 19:32:52,063 - app - WARNING - 404 Error: GET http://localhost:8000/socketcluster/

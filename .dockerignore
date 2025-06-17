@@ -1,0 +1,60 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+LICENSE
+*.md
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+build
+*.egg-info
+.pytest_cache
+.coverage
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local data (will be mounted as volumes)
+data/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Development files
+debug.py
+run.py
+test_*.py
+tests/
+
+# Screenshots and media
+screenshots/
+*.png
+*.jpg
+*.gif
+*.mp4
+
+# Temporary files
+*.tmp
+*.log
+.cache/

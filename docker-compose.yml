@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  chakrawatch:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: chakrawatch-app
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist database and logs
+      - ./data:/app/data
+      - ./logs:/app/logs
+      # Optional: Mount frontend for development
+      - ./frontend:/app/frontend:ro
+    environment:
+      - DATABASE_URL=sqlite:///./data/chakrawatch.db
+      - DEBUG=false
+      - MAX_ARTICLES_PER_SOURCE=20
+      - REQUEST_TIMEOUT=30
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    networks:
+      - chakrawatch-network
+
+  # Uncomment below for PostgreSQL production setup
+  # postgres:
+  #   image: postgres:15-alpine
+  #   container_name: chakrawatch-db
+  #   environment:
+  #     POSTGRES_DB: chakrawatch
+  #     POSTGRES_USER: chakrawatch
+  #     POSTGRES_PASSWORD: your_secure_password
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   networks:
+  #     - chakrawatch-network
+  #   restart: unless-stopped
+
+  # Uncomment below for Redis caching
+  # redis:
+  #   image: redis:7-alpine
+  #   container_name: chakrawatch-cache
+  #   command: redis-server --appendonly yes
+  #   volumes:
+  #     - redis_data:/data
+  #   networks:
+  #     - chakrawatch-network
+  #   restart: unless-stopped
+
+# Uncomment below when using PostgreSQL and Redis
+# volumes:
+#   postgres_data:
+#     driver: local
+#   redis_data:
+#     driver: local
+
+networks:
+  chakrawatch-network:
+    driver: bridge
