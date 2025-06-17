@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChakraWatch - Professional Cybersecurity Threat Intelligence</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="ChakraWatch - Professional cybersecurity threat intelligence platform for monitoring and analyzing security threats in real-time.">
+    <meta name="keywords" content="cybersecurity, threat intelligence, security monitoring, malware analysis, IOC tracking">
+    <meta name="author" content="ChakraWatch">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/static/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="http://localhost:8000">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-title">
+                    <h1>
+                        <span role="img" aria-label="Shield">🛡️</span>
+                        ChakraWatch
+                    </h1>
+                    <p>Professional Cybersecurity Threat Intelligence Platform</p>
+                </div>
+                <div class="header-controls">
+                    <button class="btn btn-primary" onclick="refreshData()" id="refreshBtn" title="Refresh all data">
+                        <span class="btn-icon" role="img" aria-label="Refresh">🔄</span>
+                        <span class="btn-text">Refresh</span>
+                    </button>
+                    <button class="btn btn-secondary" onclick="triggerScrape()" id="scrapeBtn" title="Scrape new threats">
+                        <span class="btn-icon" role="img" aria-label="Spider">🕷️</span>
+                        <span class="btn-text">Scrape</span>
+                    </button>
+                    <button class="btn btn-secondary" onclick="toggleDarkMode()" id="themeBtn" title="Toggle dark/light mode">
+                        <span class="btn-icon" role="img" aria-label="Moon">🌙</span>
+                        <span class="btn-text">Dark</span>
+                    </button>
+                    <a href="http://localhost:8000/docs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" title="View API documentation">
+                        <span class="btn-icon" role="img" aria-label="Books">📚</span>
+                        <span class="btn-text">API</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Statistics Dashboard -->
+        <section class="stats-section" aria-label="Statistics Dashboard">
+            <div class="stats-grid" id="statsGrid">
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-icon blue" role="img" aria-label="Documents icon">
+                            <span class="icon">📄</span>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Total Articles</div>
+                            <div class="stat-value" id="totalArticles" aria-live="polite">-</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-icon red" role="img" aria-label="Critical threats icon">
+                            <span class="icon">⚠️</span>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Critical Threats</div>
+                            <div class="stat-value" id="criticalThreats" aria-live="polite">-</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-icon orange" role="img" aria-label="IOCs icon">
+                            <span class="icon">🎯</span>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">IOCs Found</div>
+                            <div class="stat-value" id="iocsFound" aria-live="polite">-</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-icon green" role="img" aria-label="Sources icon">
+                            <span class="icon">📡</span>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Active Sources</div>
+                            <div class="stat-value" id="activeSources" aria-live="polite">-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search and Filters Section -->
+        <section class="search-section" aria-label="Search and Filters">
+            <div class="search-container">
+                <div class="search-main">
+                    <div class="search-input-container">
+                        <span class="search-icon" role="img" aria-label="Search">🔍</span>
+                        <input type="text" 
+                               class="search-input" 
+                               id="searchInput" 
+                               placeholder="Search threat intelligence articles..."
+                               aria-label="Search articles">
+                        <button class="search-clear" 
+                                onclick="clearSearch()" 
+                                id="clearBtn" 
+                                title="Clear search"
+                                aria-label="Clear search">×</button>
+                    </div>
+                </div>
+                
+                <div class="search-filters">
+                    <select class="filter-select" id="threatLevelFilter" aria-label="Filter by threat level">
+                        <option value="">All Threat Levels</option>
+                        <option value="critical">🔴 Critical</option>
+                        <option value="high">🟠 High</option>
+                        <option value="medium">🟡 Medium</option>
+                        <option value="low">🟢 Low</option>
+                    </select>
+                    
+                    <select class="filter-select" id="sourceFilter" aria-label="Filter by source">
+                        <option value="">All Sources</option>
+                        <option value="security_affairs">Security Affairs</option>
+                        <option value="bleeping_computer">BleepingComputer</option>
+                        <option value="hacker_news_rss">The Hacker News</option>
+                        <option value="cyware">Cyware</option>
+                    </select>
+                    
+                    <button class="btn btn-primary" onclick="searchArticles()" title="Apply search filters">
+                        <span class="btn-icon" role="img" aria-label="Search">🔍</span>
+                        <span class="btn-text">Search</span>
+                    </button>
+                    
+                    <button class="btn btn-secondary" onclick="clearFilters()" title="Clear all filters">
+                        <span class="btn-icon" role="img" aria-label="Clear">🗑️</span>
+                        <span class="btn-text">Clear</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles Section -->
+        <main class="articles-section" aria-label="Threat Intelligence Articles">
+            <div class="articles-header">
+                <h2 class="articles-title">
+                    <span class="title-icon" role="img" aria-label="News">📰</span>
+                    Latest Threat Intelligence
+                </h2>
+                <div class="articles-controls">
+                    <div class="articles-info" id="articlesInfo" aria-live="polite">Loading...</div>
+                    <div class="view-controls" role="group" aria-label="View mode controls">
+                        <button class="view-btn active" 
+                                onclick="setViewMode('grid')" 
+                                data-view="grid" 
+                                title="Grid view"
+                                aria-label="Switch to grid view">
+                            <span class="view-icon">▦</span>
+                        </button>
+                        <button class="view-btn" 
+                                onclick="setViewMode('list')" 
+                                data-view="list" 
+                                title="List view"
+                                aria-label="Switch to list view">
+                            <span class="view-icon">☰</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="articles-container">
+                <div class="articles-grid" id="articlesGrid" role="grid" aria-label="Articles grid">
+                    <!-- Articles will be loaded here dynamically -->
+                </div>
+            </div>
+            
+            <!-- Pagination -->
+            <nav class="pagination-container" aria-label="Article pagination">
+                <div class="pagination" id="pagination" role="navigation">
+                    <!-- Pagination will be loaded here -->
+                </div>
+            </nav>
+        </main>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay" aria-hidden="true">
+        <div class="loading-content">
+            <div class="loading-spinner" role="progressbar" aria-label="Loading"></div>
+            <div class="loading-text">Loading threat intelligence...</div>
+        </div>
+    </div>
+
+    <!-- Notification Container -->
+    <div class="notification-container" 
+         id="notificationContainer" 
+         aria-live="polite" 
+         aria-label="Notifications">
+        <!-- Notifications will appear here -->
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/static/script.js"></script>
+    
+    <!-- Service Worker for offline support (optional) -->
+    <script>
+        // Register service worker for better offline experience
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                // Only register if we have a service worker file
+                fetch('/static/sw.js')
+                    .then(() => {
+                        navigator.serviceWorker.register('/static/sw.js')
+                            .then(registration => console.log('SW registered'))
+                            .catch(error => console.log('SW registration failed'));
+                    })
+                    .catch(() => {
+                        // Service worker file doesn't exist, which is fine
+                    });
+            });
+        }
+    </script>
+</body>
+</html>

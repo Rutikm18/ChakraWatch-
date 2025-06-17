@@ -1,0 +1,230 @@
+2025-06-17 22:03:58,635 - app - INFO - Starting ChakraWatch...
+2025-06-17 22:03:58,677 - app - INFO - Database tables created
+2025-06-17 22:03:58,677 - app - INFO - Starting background scraping...
+2025-06-17 22:03:58,677 - app - INFO - Scraping hacker_news...
+2025-06-17 22:04:02,568 - app - INFO - Scraped 0 articles from hacker_news
+2025-06-17 22:04:02,568 - app - INFO - Scraping security_affairs...
+2025-06-17 22:04:09,277 - app - INFO - Scraped 10 articles from security_affairs
+2025-06-17 22:04:09,301 - app - INFO - Background scraping completed: 10 found, 10 saved
+2025-06-17 22:06:00,119 - app - INFO - Starting ChakraWatch...
+2025-06-17 22:06:00,121 - app - INFO - Database tables created
+2025-06-17 22:06:00,121 - app - INFO - Starting background scraping...
+2025-06-17 22:06:00,121 - app - INFO - Scraping hacker_news...
+2025-06-17 22:06:01,672 - app - INFO - Scraped 0 articles from hacker_news
+2025-06-17 22:06:01,672 - app - INFO - Scraping security_affairs...
+2025-06-17 22:06:09,029 - app - INFO - Scraped 10 articles from security_affairs
+2025-06-17 22:06:09,042 - app - INFO - Background scraping completed: 10 found, 0 saved
+2025-06-17 22:16:46,497 - app - INFO - Starting ChakraWatch...
+2025-06-17 22:16:46,512 - app - INFO - Database tables created
+2025-06-17 22:16:46,512 - app - INFO - Starting background scraping...
+2025-06-17 22:16:46,513 - app - INFO - Scraping hacker_news...
+2025-06-17 22:16:50,367 - app - INFO - Scraped 0 articles from hacker_news
+2025-06-17 22:16:50,367 - app - INFO - Scraping security_affairs...
+2025-06-17 22:16:55,679 - app - INFO - Scraped 10 articles from security_affairs
+2025-06-17 22:16:55,689 - app - INFO - Background scraping completed: 10 found, 0 saved
+2025-06-17 22:18:38,516 - app - INFO - Starting ChakraWatch...
+2025-06-17 22:18:38,518 - app - INFO - Database tables created
+2025-06-17 22:18:38,518 - app - INFO - Starting background scraping...
+2025-06-17 22:18:38,518 - app - INFO - Scraping hacker_news...
+2025-06-17 22:18:40,786 - app - INFO - Scraped 0 articles from hacker_news
+2025-06-17 22:18:40,787 - app - INFO - Scraping security_affairs...
+2025-06-17 22:18:44,429 - app - INFO - Scraped 10 articles from security_affairs
+2025-06-17 22:18:44,440 - app - INFO - Background scraping completed: 10 found, 0 saved
+2025-06-17 22:22:42,848 - app - INFO - Starting ChakraWatch...
+2025-06-17 22:22:42,850 - app - INFO - Database tables created
+2025-06-17 22:22:42,850 - app - INFO - Starting background scraping...
+2025-06-17 22:22:42,850 - app - INFO - Scraping hacker_news...
+2025-06-17 22:22:44,470 - app - INFO - Scraped 0 articles from hacker_news
+2025-06-17 22:22:44,471 - app - INFO - Scraping security_affairs...
+2025-06-17 22:22:49,277 - app - INFO - Scraped 10 articles from security_affairs
+2025-06-17 22:22:49,290 - app - INFO - Background scraping completed: 10 found, 0 saved
+2025-06-17 22:22:57,567 - app - INFO - Starting ChakraWatch...
+2025-06-17 22:22:57,569 - app - INFO - Database tables created
+2025-06-17 22:22:57,569 - app - INFO - Starting background scraping...
+2025-06-17 22:22:57,569 - app - INFO - Scraping hacker_news...
+2025-06-17 22:23:01,704 - app - INFO - Scraped 0 articles from hacker_news
+2025-06-17 22:23:01,704 - app - INFO - Scraping security_affairs...
+2025-06-17 22:23:06,347 - app - INFO - Scraped 10 articles from security_affairs
+2025-06-17 22:23:06,359 - app - INFO - Background scraping completed: 10 found, 0 saved
+2025-06-17 22:27:57,313 - app - INFO - [OK] Static files mounted successfully
+2025-06-17 22:27:57,372 - app - INFO - Starting ChakraWatch...
+2025-06-17 22:27:57,375 - app - INFO - Database tables created
+2025-06-17 22:27:57,375 - app - INFO - Starting background scraping...
+2025-06-17 22:27:57,375 - app - INFO - Scraping hacker_news...
+2025-06-17 22:28:01,156 - app - INFO - Scraped 0 articles from hacker_news
+2025-06-17 22:28:01,156 - app - INFO - Scraping security_affairs...
+2025-06-17 22:28:05,532 - app - INFO - Scraped 10 articles from security_affairs
+2025-06-17 22:28:05,544 - app - INFO - Background scraping completed: 10 found, 0 saved
+2025-06-17 22:28:45,313 - app - INFO - [OK] Static files mounted successfully
+2025-06-17 22:28:45,351 - app - INFO - Starting ChakraWatch...
+2025-06-17 22:28:45,353 - app - INFO - Database tables created
+2025-06-17 22:28:45,353 - app - INFO - Starting background scraping...
+2025-06-17 22:28:45,353 - app - INFO - Scraping hacker_news...
+2025-06-17 22:28:46,290 - app - INFO - Scraped 0 articles from hacker_news
+2025-06-17 22:28:46,291 - app - INFO - Scraping security_affairs...
+2025-06-17 22:28:53,164 - app - INFO - Scraped 10 articles from security_affairs
+2025-06-17 22:28:53,175 - app - INFO - Background scraping completed: 10 found, 0 saved
+2025-06-17 22:31:38,594 - app - INFO - [OK] Static files mounted successfully
+2025-06-17 22:31:38,640 - app - INFO - Starting ChakraWatch...
+2025-06-17 22:31:38,641 - app - INFO - Database tables created
+2025-06-17 22:31:38,642 - app - INFO - Starting background scraping...
+2025-06-17 22:31:38,642 - app - INFO - Scraping hacker_news...
+2025-06-17 22:31:39,899 - app - INFO - Scraped 0 articles from hacker_news
+2025-06-17 22:31:39,899 - app - INFO - Scraping security_affairs...
+2025-06-17 22:31:48,528 - app - INFO - Scraped 10 articles from security_affairs
+2025-06-17 22:31:48,546 - app - INFO - Background scraping completed: 10 found, 0 saved
+2025-06-17 22:32:45,050 - app - INFO - [OK] Static files mounted successfully
+2025-06-17 22:32:45,099 - app - INFO - Starting ChakraWatch...
+2025-06-17 22:32:45,100 - app - INFO - Database tables created
+2025-06-17 22:32:45,101 - app - INFO - Starting background scraping...
+2025-06-17 22:32:45,101 - app - INFO - Scraping hacker_news...
+2025-06-17 22:32:47,571 - app - INFO - Scraped 0 articles from hacker_news
+2025-06-17 22:32:47,571 - app - INFO - Scraping security_affairs...
+2025-06-17 22:32:51,887 - app - INFO - Scraped 10 articles from security_affairs
+2025-06-17 22:32:51,897 - app - INFO - Background scraping completed: 10 found, 0 saved
+2025-06-17 22:34:47,993 - app - INFO - [OK] Static files mounted successfully
+2025-06-17 22:34:48,051 - app - INFO - Starting ChakraWatch...
+2025-06-17 22:34:48,053 - app - INFO - Database tables created
+2025-06-17 22:34:48,053 - app - INFO - Starting background scraping...
+2025-06-17 22:34:48,053 - app - INFO - Scraping hacker_news...
+2025-06-17 22:34:50,384 - app - INFO - Scraped 0 articles from hacker_news
+2025-06-17 22:34:50,384 - app - INFO - Scraping security_affairs...
+2025-06-17 22:35:00,005 - app - INFO - Scraped 10 articles from security_affairs
+2025-06-17 22:35:00,022 - app - INFO - Background scraping completed: 10 found, 0 saved
+2025-06-17 23:17:17,604 - app - INFO - [OK] Static files mounted successfully
+2025-06-17 23:17:17,657 - app - INFO - [OK] Database manager initialized
+2025-06-17 23:17:17,657 - app - INFO - [OK] Scraper manager initialized
+2025-06-17 23:17:17,668 - app - INFO - Starting ChakraWatch server...
+2025-06-17 23:17:17,672 - app - INFO - Database tables created/verified
+2025-06-17 23:17:17,682 - app - INFO - [OK] Database connection verified. Current articles: 10
+2025-06-17 23:17:17,683 - app - INFO - [OK] ChakraWatch server startup completed
+2025-06-17 23:17:53,455 - app - WARNING - 404 Error: GET http://127.0.0.1:8000/.well-known/appspecific/com.chrome.devtools.json
+2025-06-17 23:17:53,455 - app - ERROR - 500 Error: GET http://127.0.0.1:8000/.well-known/appspecific/com.chrome.devtools.json - 'dict' object is not callable
+2025-06-17 23:35:13,746 - app - INFO - [OK] Static files mounted successfully
+2025-06-17 23:35:13,799 - app - INFO - [OK] Database manager initialized
+2025-06-17 23:35:13,799 - app - INFO - [OK] Scraper manager initialized
+2025-06-17 23:35:13,809 - app - INFO - Starting ChakraWatch server...
+2025-06-17 23:35:13,811 - app - INFO - Database tables created/verified
+2025-06-17 23:35:13,819 - app - INFO - [OK] Database connection verified. Current articles: 10
+2025-06-17 23:35:13,819 - app - INFO - [OK] ChakraWatch server startup completed
+2025-06-17 23:36:52,532 - app - INFO - [OK] Static files mounted successfully
+2025-06-17 23:36:52,567 - app - INFO - [OK] Database manager initialized
+2025-06-17 23:36:52,568 - app - INFO - [OK] Scraper manager initialized
+2025-06-17 23:36:52,575 - app - INFO - Starting ChakraWatch server...
+2025-06-17 23:36:52,577 - app - INFO - Database tables created/verified
+2025-06-17 23:36:52,585 - app - INFO - [OK] Database connection verified. Current articles: 10
+2025-06-17 23:36:52,586 - app - INFO - [OK] ChakraWatch server startup completed
+2025-06-17 23:42:29,249 - app - INFO - [OK] Static files mounted successfully
+2025-06-17 23:42:29,301 - app - INFO - [OK] Database manager initialized
+2025-06-17 23:42:29,301 - app - INFO - [OK] Scraper manager initialized
+2025-06-17 23:42:29,310 - app - INFO - Starting ChakraWatch server...
+2025-06-17 23:42:29,312 - app - INFO - Database tables created/verified
+2025-06-17 23:42:29,320 - app - INFO - [OK] Database connection verified. Current articles: 10
+2025-06-17 23:42:29,320 - app - INFO - [OK] ChakraWatch server startup completed
+2025-06-17 23:42:37,099 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 23:42:37,245 - app - WARNING - 404 Error: GET http://localhost:8000/static/sw.js
+2025-06-17 23:42:40,271 - app - INFO - Starting background scraping...
+2025-06-17 23:42:40,271 - app - INFO - Starting scrape for security_affairs...
+2025-06-17 23:42:40,271 - app - INFO - Fetching RSS feed from https://securityaffairs.com/feed
+2025-06-17 23:42:44,769 - app - INFO - RSS response status: 200
+2025-06-17 23:42:44,850 - app - INFO - Found 10 entries in RSS feed
+2025-06-17 23:42:44,866 - app - INFO - Successfully parsed 10 articles from security_affairs
+2025-06-17 23:42:44,867 - app - INFO - Completed scrape for security_affairs: 10 articles
+2025-06-17 23:42:46,868 - app - INFO - Starting scrape for bleeping_computer...
+2025-06-17 23:42:46,868 - app - INFO - Fetching RSS feed from https://www.bleepingcomputer.com/feed/
+2025-06-17 23:42:49,989 - app - INFO - RSS response status: 200
+2025-06-17 23:42:49,998 - app - INFO - Found 13 entries in RSS feed
+2025-06-17 23:42:50,010 - app - INFO - Successfully parsed 13 articles from bleeping_computer
+2025-06-17 23:42:50,010 - app - INFO - Completed scrape for bleeping_computer: 13 articles
+2025-06-17 23:42:52,011 - app - INFO - Starting scrape for hacker_news_rss...
+2025-06-17 23:42:52,011 - app - INFO - Fetching RSS feed from https://feeds.feedburner.com/TheHackersNews
+2025-06-17 23:42:56,187 - app - INFO - RSS response status: 200
+2025-06-17 23:42:56,233 - app - INFO - Found 50 entries in RSS feed
+2025-06-17 23:42:56,259 - app - INFO - Successfully parsed 20 articles from hacker_news_rss
+2025-06-17 23:42:56,260 - app - INFO - Completed scrape for hacker_news_rss: 20 articles
+2025-06-17 23:42:58,260 - app - INFO - Starting scrape for cyware...
+2025-06-17 23:42:58,260 - app - INFO - Fetching RSS feed from https://cyware.com/allnews.rss
+2025-06-17 23:43:05,464 - app - ERROR - Request error for RSS feed cyware: 404 Client Error: Not Found for url: https://www.cyware.com/allnews.rss
+2025-06-17 23:43:05,464 - app - INFO - Completed scrape for cyware: 0 articles
+2025-06-17 23:43:07,466 - app - INFO - Total articles scraped: 43
+2025-06-17 23:43:07,496 - app - INFO - Saved 33 new articles to database
+2025-06-17 23:43:07,497 - app - INFO - Background scraping completed: 43 found, 33 saved
+2025-06-17 23:43:07,506 - app - INFO - Starting background scraping...
+2025-06-17 23:43:07,507 - app - INFO - Starting scrape for security_affairs...
+2025-06-17 23:43:07,507 - app - INFO - Fetching RSS feed from https://securityaffairs.com/feed
+2025-06-17 23:43:11,051 - app - INFO - RSS response status: 200
+2025-06-17 23:43:11,126 - app - INFO - Found 10 entries in RSS feed
+2025-06-17 23:43:11,140 - app - INFO - Successfully parsed 10 articles from security_affairs
+2025-06-17 23:43:11,140 - app - INFO - Completed scrape for security_affairs: 10 articles
+2025-06-17 23:43:13,142 - app - INFO - Starting scrape for bleeping_computer...
+2025-06-17 23:43:13,142 - app - INFO - Fetching RSS feed from https://www.bleepingcomputer.com/feed/
+2025-06-17 23:43:15,406 - app - INFO - RSS response status: 200
+2025-06-17 23:43:15,420 - app - INFO - Found 13 entries in RSS feed
+2025-06-17 23:43:15,434 - app - INFO - Successfully parsed 13 articles from bleeping_computer
+2025-06-17 23:43:15,436 - app - INFO - Completed scrape for bleeping_computer: 13 articles
+2025-06-17 23:43:17,437 - app - INFO - Starting scrape for hacker_news_rss...
+2025-06-17 23:43:17,437 - app - INFO - Fetching RSS feed from https://feeds.feedburner.com/TheHackersNews
+2025-06-17 23:43:20,353 - app - INFO - RSS response status: 200
+2025-06-17 23:43:20,371 - app - INFO - Found 50 entries in RSS feed
+2025-06-17 23:43:20,392 - app - INFO - Successfully parsed 20 articles from hacker_news_rss
+2025-06-17 23:43:20,392 - app - INFO - Completed scrape for hacker_news_rss: 20 articles
+2025-06-17 23:43:22,393 - app - INFO - Starting scrape for cyware...
+2025-06-17 23:43:22,393 - app - INFO - Fetching RSS feed from https://cyware.com/allnews.rss
+2025-06-17 23:43:26,697 - app - ERROR - Request error for RSS feed cyware: 404 Client Error: Not Found for url: https://www.cyware.com/allnews.rss
+2025-06-17 23:43:26,697 - app - INFO - Completed scrape for cyware: 0 articles
+2025-06-17 23:43:28,699 - app - INFO - Total articles scraped: 43
+2025-06-17 23:43:28,720 - app - INFO - Saved 0 new articles to database
+2025-06-17 23:43:28,721 - app - INFO - Background scraping completed: 43 found, 0 saved
+2025-06-17 23:43:28,732 - app - WARNING - 404 Error: GET http://localhost:8000/.well-known/appspecific/com.chrome.devtools.json
+2025-06-17 23:45:26,214 - app - INFO - Starting background scraping...
+2025-06-17 23:45:26,214 - app - INFO - Starting scrape for security_affairs...
+2025-06-17 23:45:26,214 - app - INFO - Fetching RSS feed from https://securityaffairs.com/feed
+2025-06-17 23:45:30,512 - app - INFO - RSS response status: 200
+2025-06-17 23:45:30,644 - app - INFO - Found 10 entries in RSS feed
+2025-06-17 23:45:30,658 - app - INFO - Successfully parsed 10 articles from security_affairs
+2025-06-17 23:45:30,659 - app - INFO - Completed scrape for security_affairs: 10 articles
+2025-06-17 23:45:32,660 - app - INFO - Starting scrape for bleeping_computer...
+2025-06-17 23:45:32,660 - app - INFO - Fetching RSS feed from https://www.bleepingcomputer.com/feed/
+2025-06-17 23:45:36,367 - app - INFO - RSS response status: 200
+2025-06-17 23:45:36,372 - app - INFO - Found 13 entries in RSS feed
+2025-06-17 23:45:36,379 - app - INFO - Successfully parsed 13 articles from bleeping_computer
+2025-06-17 23:45:36,380 - app - INFO - Completed scrape for bleeping_computer: 13 articles
+2025-06-17 23:45:38,381 - app - INFO - Starting scrape for hacker_news_rss...
+2025-06-17 23:45:38,381 - app - INFO - Fetching RSS feed from https://feeds.feedburner.com/TheHackersNews
+2025-06-17 23:45:40,605 - app - INFO - RSS response status: 200
+2025-06-17 23:45:40,625 - app - INFO - Found 50 entries in RSS feed
+2025-06-17 23:45:40,644 - app - INFO - Successfully parsed 20 articles from hacker_news_rss
+2025-06-17 23:45:40,645 - app - INFO - Completed scrape for hacker_news_rss: 20 articles
+2025-06-17 23:45:42,646 - app - INFO - Starting scrape for cyware...
+2025-06-17 23:45:42,646 - app - INFO - Fetching RSS feed from https://cyware.com/allnews.rss
+2025-06-17 23:45:46,364 - app - ERROR - Request error for RSS feed cyware: 404 Client Error: Not Found for url: https://www.cyware.com/allnews.rss
+2025-06-17 23:45:46,365 - app - INFO - Completed scrape for cyware: 0 articles
+2025-06-17 23:45:48,366 - app - INFO - Total articles scraped: 43
+2025-06-17 23:45:48,395 - app - INFO - Saved 0 new articles to database
+2025-06-17 23:45:48,395 - app - INFO - Background scraping completed: 43 found, 0 saved
+2025-06-17 23:50:17,251 - app - INFO - Starting background scraping...
+2025-06-17 23:50:17,252 - app - INFO - Starting scrape for security_affairs...
+2025-06-17 23:50:17,252 - app - INFO - Fetching RSS feed from https://securityaffairs.com/feed
+2025-06-17 23:50:20,392 - app - INFO - RSS response status: 200
+2025-06-17 23:50:20,449 - app - INFO - Found 10 entries in RSS feed
+2025-06-17 23:50:20,465 - app - INFO - Successfully parsed 10 articles from security_affairs
+2025-06-17 23:50:20,466 - app - INFO - Completed scrape for security_affairs: 10 articles
+2025-06-17 23:50:22,467 - app - INFO - Starting scrape for bleeping_computer...
+2025-06-17 23:50:22,467 - app - INFO - Fetching RSS feed from https://www.bleepingcomputer.com/feed/
+2025-06-17 23:50:25,525 - app - INFO - RSS response status: 200
+2025-06-17 23:50:25,533 - app - INFO - Found 13 entries in RSS feed
+2025-06-17 23:50:25,545 - app - INFO - Successfully parsed 13 articles from bleeping_computer
+2025-06-17 23:50:25,546 - app - INFO - Completed scrape for bleeping_computer: 13 articles
+2025-06-17 23:50:27,547 - app - INFO - Starting scrape for hacker_news_rss...
+2025-06-17 23:50:27,547 - app - INFO - Fetching RSS feed from https://feeds.feedburner.com/TheHackersNews
+2025-06-17 23:50:32,687 - app - INFO - RSS response status: 200
+2025-06-17 23:50:32,718 - app - INFO - Found 50 entries in RSS feed
+2025-06-17 23:50:32,744 - app - INFO - Successfully parsed 20 articles from hacker_news_rss
+2025-06-17 23:50:32,745 - app - INFO - Completed scrape for hacker_news_rss: 20 articles
+2025-06-17 23:50:34,746 - app - INFO - Starting scrape for cyware...
+2025-06-17 23:50:34,746 - app - INFO - Fetching RSS feed from https://cyware.com/allnews.rss
+2025-06-17 23:50:38,292 - app - ERROR - Request error for RSS feed cyware: 404 Client Error: Not Found for url: https://www.cyware.com/allnews.rss
+2025-06-17 23:50:38,292 - app - INFO - Completed scrape for cyware: 0 articles
+2025-06-17 23:50:40,293 - app - INFO - Total articles scraped: 43
+2025-06-17 23:50:40,322 - app - INFO - Saved 0 new articles to database
+2025-06-17 23:50:40,322 - app - INFO - Background scraping completed: 43 found, 0 saved
